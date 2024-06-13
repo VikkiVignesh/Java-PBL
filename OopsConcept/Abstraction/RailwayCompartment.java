@@ -45,7 +45,7 @@ public class RailwayCompartment {
         Compartment coaches[]=new Compartment[10];
         for(int i=0;i<coaches.length;i++)
         { 
-            switch(r.nextInt(10))
+            switch(r.nextInt(4))
             {
                 case 0:
                     coaches[i]=new Luggages();
@@ -63,7 +63,7 @@ public class RailwayCompartment {
         }
     for(int i=0;i<coaches.length;i++)
     {
-        coaches[i].notice();
+        System.out.println(coaches[i].notice());
     }
     }
 }
