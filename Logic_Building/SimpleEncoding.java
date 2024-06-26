@@ -15,7 +15,7 @@ public class SimpleEncoding {
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter Sixe of Encoded Array");
+        System.out.println("Enter Size of Encoded Array");
         int n=sc.nextInt();
         int encoded[]=new int[n];
         for(int i=0;i<encoded.length;i++)
