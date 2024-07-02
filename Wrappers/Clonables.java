@@ -25,11 +25,15 @@ public class Clonables {
         Test A1=new Test(10, 20);
         Test A2;
         //A2=A1;
-        A2=A1.clon
+        A2=A1.cloneTest();
         System.out.println(A1.a);
         System.out.println(A1.b);
 
+        A2.a=50;
         System.out.println(A2.a);
         System.out.println(A2.b);
+
+        System.out.println(A1.a);
+        System.out.println(A1.b);
     }
 }
